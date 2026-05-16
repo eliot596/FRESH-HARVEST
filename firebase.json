@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "freshharvest-bf081",
+          "appId": "1:697166472093:android:3bbfba4d89b8dcaf028574",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "freshharvest-bf081",
+          "configurations": {
+            "android": "1:697166472093:android:3bbfba4d89b8dcaf028574",
+            "ios": "1:697166472093:ios:f3acb3de0a891208028574",
+            "macos": "1:697166472093:ios:f3acb3de0a891208028574",
+            "web": "1:697166472093:web:abb8ec14c466f16e028574",
+            "windows": "1:697166472093:web:8133dbe72cd6bb8e028574"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
